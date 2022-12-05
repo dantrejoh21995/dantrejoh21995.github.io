@@ -4,25 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El amor lo encuentras donde menos lo esperas</title>
+    <title>Señorita Carpio</title>
 </head> 
-<body>
-    <audio id="audio" controls>
-        <source src = "megusta.mp3" type = "audio/mpeg">
-        <source src = "megusta.ogg" type = "audio/ogg">
-        Tu navegador no soporta HTML5 audio.
-    </audio>
-    <script type=”text/javascript”>
-        function autoplay(){
-            var r =confirm(“Would You Like To AutoPlay Music?”);
-            if (r == true) {
-                document.getElementById(“audio”).play();
-            }
-          }
-        </script>
-        <script>autoplay();</script>
-   <script>
+<body bgcolor="pink">
     
+   <video width="320" height="240" autoplay controls muted>
+    <source src= "megusta.mp4" type="video/mp4">
+    Tu navegador no es compatible con mp4 
+   </video>
+   <script>
     alert("Hola, Nino")
     alert("Espero tengas un excelente dia, tarde y noches")
     alert("Hice esto para que tengas un pequeño recuerdo a los dias por venir")
@@ -33,6 +23,8 @@
     
     if (dijo_que_si){
         document.write('<3')
+        
+
     }else{
         document.write('</3')
     }
